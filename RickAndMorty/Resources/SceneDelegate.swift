@@ -14,7 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowSciene = (scene as? UIWindowScene) else { return }
         
-        let vc = ViewController()
+        let vc = RMTabViewController()
         
         let window = UIWindow(windowScene: windowSciene)
         window.rootViewController = vc
