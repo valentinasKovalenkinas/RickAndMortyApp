@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B77DE1C02A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77DE1BF2A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift */; };
 		B792A7FA29FD117A0027DCB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792A7F929FD117A0027DCB9 /* AppDelegate.swift */; };
 		B792A7FC29FD117A0027DCB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792A7FB29FD117A0027DCB9 /* SceneDelegate.swift */; };
 		B792A7FE29FD117A0027DCB9 /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792A7FD29FD117A0027DCB9 /* RMTabViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B77DE1BF2A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
 		B792A7F629FD117A0027DCB9 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B792A7F929FD117A0027DCB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B792A7FB29FD117A0027DCB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				B792A8372A040A8A0027DCB9 /* RMCharacterListView.swift */,
 				B792A83B2A0540090027DCB9 /* RMCharacterCollectionViewCell.swift */,
 				B7E754322A0970CF0088243C /* RMCharacterView.swift */,
+				B77DE1BF2A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				B792A82E2A002BBC0027DCB9 /* RMCharacterStatus.swift in Sources */,
 				B792A8302A002C610027DCB9 /* RMCharacterGender.swift in Sources */,
 				B7E754312A096F4C0088243C /* RMCharacterDetailViewController.swift in Sources */,
+				B77DE1C02A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift in Sources */,
 				B792A82029FD1B370027DCB9 /* RMEpisodeTableViewController.swift in Sources */,
 				B792A81929FD193A0027DCB9 /* RMEpisode.swift in Sources */,
 				B792A7FE29FD117A0027DCB9 /* RMTabViewController.swift in Sources */,
