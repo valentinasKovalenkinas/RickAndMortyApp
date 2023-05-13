@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B77DE1C02A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77DE1BF2A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift */; };
+		B77DE1C22A0F89D40069EA0D /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77DE1C12A0F89D40069EA0D /* RMImageLoader.swift */; };
 		B792A7FA29FD117A0027DCB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792A7F929FD117A0027DCB9 /* AppDelegate.swift */; };
 		B792A7FC29FD117A0027DCB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792A7FB29FD117A0027DCB9 /* SceneDelegate.swift */; };
 		B792A7FE29FD117A0027DCB9 /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792A7FD29FD117A0027DCB9 /* RMTabViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		B77DE1BF2A0AA7D30069EA0D /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		B77DE1C12A0F89D40069EA0D /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 		B792A7F629FD117A0027DCB9 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B792A7F929FD117A0027DCB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B792A7FB29FD117A0027DCB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		B792A81229FD180F0027DCB9 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				B77DE1C12A0F89D40069EA0D /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				B792A82A2A00282F0027DCB9 /* RMOrigin.swift in Sources */,
 				B7E754352A0971420088243C /* RMCharacterDetailViewViewModel.swift in Sources */,
 				B792A82C2A0028F00027DCB9 /* RMSingleLocation.swift in Sources */,
+				B77DE1C22A0F89D40069EA0D /* RMImageLoader.swift in Sources */,
 				B792A8382A040A8A0027DCB9 /* RMCharacterListView.swift in Sources */,
 				B792A8342A02BDE80027DCB9 /* RMGetAllCharactersResponse.swift in Sources */,
 				B792A82E2A002BBC0027DCB9 /* RMCharacterStatus.swift in Sources */,
